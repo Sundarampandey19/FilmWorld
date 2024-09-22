@@ -9,7 +9,7 @@ export default async function Home() {
   return(
     <>
     <h1>Hey {session?.user?.name}</h1>
-    <Logout session={session} />
+    <Logout />
     </>
   )
 }

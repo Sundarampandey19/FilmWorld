@@ -4,12 +4,9 @@ import { Button } from "./ui/button";
 import { Session } from "next-auth";
 
 
-interface UserMenuButtonProps {
-    session: Session | null;
-}
 
 
-export default function Logout({ session }: UserMenuButtonProps) {
+export default function Logout() {
     
     return (
         <>
